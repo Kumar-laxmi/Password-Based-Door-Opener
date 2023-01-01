@@ -1,0 +1,9 @@
+.\objects\door_open.o: Door_Open.c
+.\objects\door_open.o: C:\Keil_v5\ARM\INC\Philips\lpc214x.h
+.\objects\door_open.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\door_open.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\door_open.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\door_open.o: timerdelay.h
+.\objects\door_open.o: lcd.h
+.\objects\door_open.o: keypad.h
+.\objects\door_open.o: stepper_motor.h
