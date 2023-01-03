@@ -11,6 +11,8 @@ Security is a prime concern in our day-to-day life. Everyone wants to be as secu
 - Hardware and Software design.
 - Construction/Packaging of the various components of the system.Testing of the final project to ascertain its authenticity.
 
+![image-001](https://user-images.githubusercontent.com/76027425/210290759-6c5f4131-1de6-46d1-87ab-6e92bb2c6d2a.jpg)
+
 
 ### Scope of this project:
 **Pick-proof:** Because there is no place for metallic keys with the electronic lock, it prevents break-ins because burglars are unable to pick or bump the lock. The methods used by criminals for breaking and entering are improving and the majority of criminals can pick an ordinary key lock.
@@ -26,25 +28,44 @@ Security is a prime concern in our day-to-day life. Everyone wants to be as secu
 #### LPC2148 Development board:
 LPC2148 Pro Development Board is a powerful development platform based on LPC2148 ARM7TDMI microcontroller with 512K on-chip memory. This board is powered by USB port and does not need external power supply. It is ideal for developing embedded applications involving high speed wireless communication (Zigbee / Bluetooth / WiFi), USB based data logging, real time data monitoring and control, interactive control panels etc. The on-chip USB controller provides direct high speed interface to a PC/laptop with speeds up to 12Mb/s. The UART boot loader eliminates need of an additional programmer and allows you to program using serial port. The on board peripherals include SD/MMC card interface, USB2.0 interface, 4Kbit I2C EEPROM, Xbee / Bluetooth / WiFi wireless module interface, ULN2003 500mA current sinking driver, L293D DC motor controller, 16X2 character LCD and many more. The on-chip peripherals and the external hardware on the development board are interconnected using pin headers and jumpers. The I/O pins on the microcontroller can be accessed from a 50 pin male header. This direct access to I/O pins enables you to connect your own devices very easily to the processor. The board is made from double sided PTH PCB board to provide extra strength to the connector joints for increased reliability.
 
+![image-002](https://user-images.githubusercontent.com/76027425/210290776-b5656e04-00db-4dbc-8cb0-e6fb5e82d8b1.jpg)
+
+
 #### LCD Module:
 LCD Module is used as a display in this project. It will take an input of the password and display if it is correct or not.
+
+![image-003](https://user-images.githubusercontent.com/76027425/210290785-f4bf780f-f6a2-4cee-88f8-8f08ff04010a.jpg)
+
 
 #### 4x3 Keypad:
 A Matrix Keypad is a very useful module for embedded systems and a variety of projects. 4×4 and 4×3 keypads are commonly used matrix membrane keypads. 4×4 keypad has an additional column with A, B, C, D buttons, this is useful while additional switches are required for controls or functions like menu, navigation, Enter, Cancel, etc.a 4×3 is a 12-button keypad with 4 rows and 3 columns. The number of keypad buttons are Rn x Cn and number of pin connections is Rn + Cn; Rn – n number of rows, Cn – n number of columns. Hence 4×4 keypad has 8 pins and 4×3 has 7 pins.
 
+![image-004](https://user-images.githubusercontent.com/76027425/210290794-4f7613c9-cd27-4174-9d85-8022f0d26562.jpg)
+
+
 #### Stepper Motor:
 Stepper motors are DC motors that move in discrete steps. They have multiple coils that are organized in groups called "phases". By energizing each phase in sequence, the motor will rotate, one step at a time. With a computer controlled stepping you can achieve very precise positioning and/or speed control. For this reason, stepper motors are the motor of choice for many precision motion control applications. Stepper motors come in many different sizes and styles and electrical characteristics.
 
+![image-005](https://user-images.githubusercontent.com/76027425/210290806-7d1249eb-4778-4f2c-8382-ae6977aa6fc4.jpg)
+
+
 #### ULN2003A (Motor Driver):
 ULN2003 is a 16 Pin IC, consisting of 7 Darlington pairs (each pair protected with suppression diode) and thus has the capability to handle a maximum of 7 loads(could be inductive). In simple words, we have 7 drivers in a single ULN2003 chip and thus can control a maximum of 7 loads. Each Darlington pair can handle a maximum 500mA load, while the peak value is 600mA. Similarly, the maximum output voltage of each Darlington pair is 50V. In the below figure, you can see ULN2003 has 16 Pins, where inputs and their respective outputs are placed in front of each other(for ease of circuit designing). Other than I/O Pins, we have Ground Pin where we need to provide 0V & Vcc (Common) Pin.
+
+![image-006](https://user-images.githubusercontent.com/76027425/210290815-a74ebf79-15a7-478c-9cf4-de9d52354f30.jpg)
 
 
 ### SOFTWARE REQUIRED:
 #### Keil µVision:
 The µVision IDE combines project management, run-time environment, build facilities, source code editing, and program debugging in a single powerful environment. µVision is easy-to-use and accelerates your embedded software development. µVision supports multiple screens and allows you to create individual window layouts anywhere on the visual surface.
 
+![image-007](https://user-images.githubusercontent.com/76027425/210290828-5520e4c1-609a-4560-9f57-ec0977fc1fbc.jpg)
+
+
 #### Proteus:
 Proteus is an electronic circuit design and simulation tool. The Labcenter electronic developed it. Proteus can also be used to design two-dimensional circuits. Using this engineering program, you may create and simulate electrical and electronic circuits on your  HYPERLINK "https://www.technologitouch.com/buying-guides/best-laptop-for-virtualization/" laptop or desktop  HYPERLINK "https://www.technologitouch.com/buying-guides/best-personal-computer-for-data-science/" computer. Proteus simulations have various advantages over making circuits in the real world.
+
+![image-008](https://user-images.githubusercontent.com/76027425/210290838-44af5ae7-4b7c-4a62-9b5a-5fed58b3252d.jpg)
 
 
 ### BLOCK DIAGRAM:
