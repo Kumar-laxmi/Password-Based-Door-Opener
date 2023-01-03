@@ -83,3 +83,13 @@ From the above block diagram, we can infer that the power supply is connected to
 - Enable 1 – Directly giving 5v
 
 
+### OUTPUT:
+![image-011](https://user-images.githubusercontent.com/76027425/210290663-6f11dfd4-e63d-4e5f-8dbb-bf5bd7e2868f.jpg)
+
+
+### LIMITATIONS:
+This project would only feature a password-based electronic door access system. In other words, it only incorporates the hexadecimal keypad only for authentication. Other more advanced security features such as a fingerprint sensor, an iris scanner or a facial recognition camera would not be incorporated.
+
+
+### CONCLUSION:
+Irrespective of the challenges encountered during the course of the entire process of the project, it can only be deduced that electronic door access can also be achieved at minimal cost. This project has also exposed the fact that metallic keys can possibly be phased out with zero to minimal effect on the old and/or sick people. One needs only to be able to remember just four digits which has the same digits as the ATM card codes.
